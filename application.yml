@@ -1,4 +1,9 @@
 eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    hostname: localhost
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8671/eureka
+
+testvar: testvar
